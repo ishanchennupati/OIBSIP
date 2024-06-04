@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header .button {
+    background: #0073e6;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features, .advantages, .servers {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.feature, .advantage {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.feature img, .advantage img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.features h2, .advantages h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.features p, .advantages p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.advantages .advantage {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.servers .stats {
+    text-align: center;
+    margin: 20px 0
+}
+
+.servers .stats p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.button {
+    background: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .advantages .advantage {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.images1 {
+    height:300px;
+}
+
+.images2 {
+    height:150px;
+    width:300px;
+}
+
+.images3 {
+    width: 50vw;
+    height:200px
+}
+
+.last_heading {
+    text-align:center;
+}
+
+.last_heading {
+    color:rgb(48, 43, 43);
+    font-size:20px;
+    font-family:"Roboto";
+    font-weight:bold
+}
